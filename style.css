@@ -37,14 +37,20 @@ header a:hover, footer a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
-section.funfo-normal{
+section.fundo-normal{
     background-color: white;
     color: black;
 }
 section.imagem{
-    background-color: black;
+    background-color: rgb(69, 61, 61);
     color: white;
+}
+section.imagem > p{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.201);
 }
 
 
